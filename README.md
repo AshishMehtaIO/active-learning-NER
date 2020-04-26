@@ -11,6 +11,7 @@ Steps to run the code:
 Evaluation metric = Area under the Learning Curve
 
 Area under the learning curve for random sampling = 0.4741 (Baseline from milestone 2)
+
 Area under the learning curve for active learning = 0.4889
 
 The final graph containing the learning curves of both random sampling and active learning method is 'published_baseline_plot.png'
