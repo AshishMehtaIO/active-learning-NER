@@ -17,7 +17,8 @@ The AUC metric and the global socre were first introduced in the 2010 Active Lea
 To run the evaluation, first run the baseline model using:
 `python simple_baseline.py`
 This will train the model and geenrate the plot of F-score versus number of samples using the baseline strategy. It creates a file called `input_for_evaluation_script.txt` that contains the data for the scoring script. The scoring script can then be used to generate the score for the baseline using:
-`python score.py`
+`python score.py input_for_evaluation_script.txt`
+The .txt file can potentially be replaced with any other txt file to evaluate other methods.
 
 The output geenrated by the scoring file is as follows:
 ALC for baseline:  0.4987978168047594
